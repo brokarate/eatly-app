@@ -1,0 +1,5 @@
+# Opt in for physical iPhone testing on the same trusted Wi-Fi.
+services:
+  api:
+    ports:
+      - "${MEAL_LAN_ADDRESS:?Set MEAL_LAN_ADDRESS to the Mac Wi-Fi IP}:8000:8000"

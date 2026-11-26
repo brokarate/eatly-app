@@ -1,0 +1,16 @@
+services:
+  api:
+    environment:
+      CATALOG_DIR: /project/catalog
+    volumes:
+      - ./data/catalog:/project/catalog
+      - ./backend/app:/project/backend/app:ro
+      - ./backend/tests:/project/backend/tests:ro
+  collector:
+    build:
+      context: .
+      dockerfile: bot/Dockerfile
+    restart: unless-stopped
+    volumes:
+      - ./data/catalog:/project/data/catalog
+    command: ["python", "-m", "bot.collect", "--watch", "--interval-hours", "24", "--max-pages", "1000"]

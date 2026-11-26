@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "project-meal"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi==0.115.12",
+  "pydantic==2.11.5",
+  "uvicorn==0.34.3",
+  "SQLAlchemy==2.0.41",
+  "psycopg[binary]==3.2.9",
+  "alembic==1.16.1",
+  "ortools==9.14.6206",
+]
+
+[project.optional-dependencies]
+test = ["pytest==8.4.0", "httpx==0.28.1"]
+
+[tool.setuptools.packages.find]
+include = ["app*"]

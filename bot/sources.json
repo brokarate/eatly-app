@@ -1,0 +1,176 @@
+[
+  {
+    "id": "pandamart",
+    "name": "pandamart",
+    "adapter": "pandamart",
+    "base_url": "https://www.foodpanda.pk",
+    "hosts": [
+      "www.foodpanda.pk",
+      "foodpanda.pk"
+    ],
+    "country": "PK",
+    "location_note": "Lahore public store catalogs. Delivery to a specific street address remains unverified.",
+    "delay_seconds": 2,
+    "locations": [
+      {
+        "id": "dha-phase-5",
+        "area": "DHA Phase 5",
+        "city": "Lahore",
+        "store_id": "gu85",
+        "expected_name": "Pandamart - DHA V (LHR)",
+        "url": "https://www.foodpanda.pk/darkstore/gu85/pandamart-dha-v-lhr-gu85"
+      },
+      {
+        "id": "johar-town",
+        "area": "Johar Town",
+        "city": "Lahore",
+        "store_id": "lxyu",
+        "expected_name": "Pandamart - Johar Town (LHR)",
+        "url": "https://www.foodpanda.pk/darkstore/lxyu/pandamart-johar-town-lhr"
+      },
+      {
+        "id": "dha-phase-6",
+        "area": "DHA Phase 6",
+        "city": "Lahore",
+        "store_id": "dcu3",
+        "expected_name": "Pandamart - DHA VI (LHR)",
+        "url": "https://www.foodpanda.pk/darkstore/dcu3/pandamart-dha-vi-lhr"
+      },
+      {
+        "id": "dha-y-block",
+        "area": "DHA Y Block",
+        "city": "Lahore",
+        "store_id": "btqk",
+        "expected_name": "Pandamart - DHA (Y Block) (LHR)",
+        "url": "https://www.foodpanda.pk/darkstore/btqk/pandamart-dha-y-block-lhr"
+      },
+      {
+        "id": "model-town",
+        "area": "Model Town",
+        "city": "Lahore",
+        "store_id": "h8wc",
+        "expected_name": "Pandamart - Model Town (LHR)",
+        "url": "https://www.foodpanda.pk/darkstore/h8wc/pandamart-model-town-lhr"
+      },
+      {
+        "id": "allama-iqbal-town",
+        "area": "Allama Iqbal Town",
+        "city": "Lahore",
+        "store_id": "d74x",
+        "expected_name": "Pandamart - Allama Iqbal Town (LHR)",
+        "url": "https://www.foodpanda.pk/darkstore/d74x/pandamart-allama-iqbal-town-lhr"
+      }
+    ]
+  },
+  {
+    "id": "alfatah",
+    "name": "Al-Fatah",
+    "adapter": "shopify",
+    "base_url": "https://alfatah.pk",
+    "hosts": [
+      "alfatah.pk",
+      "www.alfatah.pk"
+    ],
+    "country": "PK",
+    "location_note": "Public storefront. Branch and city are not confirmed by this feed.",
+    "delay_seconds": 3,
+    "sitemaps": [
+      "https://alfatah.pk/sitemap.xml"
+    ],
+    "product_paths": [
+      "/products/"
+    ],
+    "max_sitemaps": 256,
+    "sitemap_path_filter": "/sitemap_products_"
+  },
+  {
+    "id": "metro",
+    "name": "METRO",
+    "adapter": "pages",
+    "base_url": "https://www.metro-online.pk",
+    "hosts": [
+      "www.metro-online.pk",
+      "metro-online.pk"
+    ],
+    "start_urls": [
+      "https://www.metro-online.pk/home"
+    ],
+    "sitemaps": [
+      "https://www.metro-online.pk/sitemap.xml"
+    ],
+    "product_paths": [
+      "/detail/"
+    ],
+    "country": "PK",
+    "location_note": "Public storefront defaults. Store identifiers are captured when published, but their city is not inferred.",
+    "delay_seconds": 1.5
+  },
+  {
+    "id": "imtiaz",
+    "name": "Imtiaz",
+    "adapter": "pages",
+    "base_url": "https://shop1.imtiaz.com.pk",
+    "hosts": [
+      "shop1.imtiaz.com.pk",
+      "shop.imtiaz.com.pk"
+    ],
+    "start_urls": [
+      "https://shop1.imtiaz.com.pk/"
+    ],
+    "sitemaps": [
+      "https://shop1.imtiaz.com.pk/sitemap.xml"
+    ],
+    "product_paths": [
+      "/product/",
+      "/products/"
+    ],
+    "country": "PK",
+    "location_note": "A delivery area may be required for a price. Public unpriced products are retained.",
+    "delay_seconds": 1.5
+  },
+  {
+    "id": "jalalsons",
+    "name": "Jalal Sons",
+    "adapter": "pages",
+    "base_url": "https://jalalsons.com.pk",
+    "hosts": [
+      "jalalsons.com.pk",
+      "www.jalalsons.com.pk"
+    ],
+    "start_urls": [
+      "https://jalalsons.com.pk/"
+    ],
+    "sitemaps": [
+      "https://jalalsons.com.pk/sitemap.xml"
+    ],
+    "product_paths": [
+      "/product/",
+      "/products/"
+    ],
+    "country": "PK",
+    "location_note": "Public storefront. Prices may depend on a delivery area.",
+    "delay_seconds": 1.5
+  },
+  {
+    "id": "naheed",
+    "name": "Naheed",
+    "adapter": "pages",
+    "base_url": "https://www.naheed.pk",
+    "hosts": [
+      "www.naheed.pk",
+      "naheed.pk"
+    ],
+    "start_urls": [
+      "https://www.naheed.pk/"
+    ],
+    "sitemaps": [
+      "https://www.naheed.pk/pub/media/sitemap.xml"
+    ],
+    "product_paths": [
+      "/"
+    ],
+    "country": "PK",
+    "location_note": "Public online listing. City and delivery coverage are not assumed.",
+    "delay_seconds": 1.5
+  }
+]

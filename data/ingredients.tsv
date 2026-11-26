@@ -1,0 +1,28 @@
+id	name	category	unit	quantity	price_pkr	restriction
+rice	Rice	Grains & pulses	g	1000	340	
+atta	Whole wheat atta	Grains & pulses	g	1000	160	
+masoor	Masoor daal	Grains & pulses	g	500	260	
+moong	Moong daal	Grains & pulses	g	500	310	
+chana	Chickpeas (dry)	Grains & pulses	g	500	260	
+chicken	Chicken	Meat & eggs	g	500	440	chicken
+beef	Beef	Meat & eggs	g	500	720	beef
+qeema	Chicken mince	Meat & eggs	g	500	510	chicken
+egg	Eggs	Meat & eggs	count	6	210	eggs
+yogurt	Plain yogurt	Dairy	g	400	170	dairy
+onion	Onions	Produce	g	250	45	
+tomato	Tomatoes	Produce	g	250	55	
+potato	Potatoes	Produce	g	250	35	
+cauliflower	Cauliflower	Produce	g	500	120	
+carrot	Carrots	Produce	g	250	45	
+peas	Peas	Produce	g	250	120	
+spinach	Spinach	Produce	g	250	75	
+garlic	Garlic	Produce	g	50	45	
+ginger	Ginger	Produce	g	50	55	
+chilli	Green chillies	Produce	g	50	45	
+coriander	Fresh coriander	Produce	g	50	45	
+lemon	Lemons	Produce	count	1	30	
+oil	Cooking oil	Pantry	ml	1000	600	
+salt	Salt	Pantry	g	400	80	
+cumin	Cumin seeds	Pantry	g	50	140	
+turmeric	Turmeric	Pantry	g	50	80	
+garam	Garam masala	Pantry	g	50	140	
